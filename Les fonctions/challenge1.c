@@ -1,23 +1,23 @@
 #include <stdio.h>
 
-double somme (double a, double b){
+float somme (double a, double b){
     return a+b;
 }
 
 
 int main (){
 
-    double a,b;
+    float a,b;
 
     printf("entrer le premier nombre: ");
-    scanf("%lf", &a);
+    scanf("%f", &a);
 
     printf("entrer le deuxieme nombre: ");
-    scanf("%lf", &b);
+    scanf("%f", &b);
 
-    double result = somme(a,b);
+    float result = somme(a,b);
 
-    printf("le resultat est %.4lf", result);
+    printf("le resultat est %.2f", result);
 
     return 0;
 }
