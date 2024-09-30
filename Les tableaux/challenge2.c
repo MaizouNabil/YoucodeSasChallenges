@@ -19,6 +19,6 @@ int main() {
         printf("%d ", tableau[i]); 
     }
 
-    printf("\n");  
+ 
     return 0;
 }

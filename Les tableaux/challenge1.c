@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
+     int n;
+     printf("ente")
     int tableau[5] = {1, 2, 3, 4, 5};
 
     printf("Les valeurs du tableau sont :\n");
