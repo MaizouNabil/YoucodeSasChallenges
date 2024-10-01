@@ -1,10 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    char chaine[100];
+    char ch[100];
     printf("entrez une chaine de caracteres : ");
-    scanf("%s", chaine);
-    printf("vous avez saisi : %s\n", chaine);
+
+    scanf("%s", ch);
+
+
+    printf("vous avez saisi : %s\n", ch);
+
+
+
+
     return 0;
     
     
